@@ -4,8 +4,17 @@ import java.util.Scanner;
 
 public class App {
     public static boolean isEven(int n) {
-        // todo: implement functionality
-        return false;
+        // use switch case
+        // cannot be used when integer have negative in'em
+        //int operation=n%2;
+        //return switch(operation){
+        //    case 0 -> true;
+        //    case 1 -> false;
+        //    default -> throw new IllegalArgumentException("Invalid operation: " + operation);
+        //};
+
+        // linkedin solution
+        return n%2==0;
     }
 
     public static void main(String[] args) {
