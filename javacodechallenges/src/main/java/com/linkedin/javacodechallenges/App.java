@@ -14,7 +14,7 @@ public class App {
         //};
 
         // linkedin solution
-        return n%2==0;
+        return n % 2 == 0;
     }
 
     public static void main(String[] args) {
